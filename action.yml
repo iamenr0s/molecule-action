@@ -1,5 +1,5 @@
 ---
-name: Test Ansible roles with Molecule
+name: Test Ansible roles with Molecule using Podman driver
 description: Run Molecule to test Ansible roles
 author: iamenr0s
 
