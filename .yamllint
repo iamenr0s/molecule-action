@@ -1,0 +1,15 @@
+---
+extends: default
+
+rules:
+  line-length:
+    max: 200
+    level: warning
+
+ignore: |
+  .github/workflows/stale.yml
+
+truthy:
+  enable: true
+  allowed-values: ["true", "false"]
+  check-keys: false
