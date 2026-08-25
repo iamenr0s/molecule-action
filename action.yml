@@ -5,7 +5,7 @@ author: iamenr0s
 
 inputs:
   namespace:
-    description: The [Docker Hub](https://hub.docker.com/) namespace where the image can be found. Defaults to `robertdebock`.
+    description: The [Docker Hub](https://hub.docker.com/) namespace where the image can be found. Defaults to `iamenr0s`.
     required: false
     default: iamenr0s
   image:
@@ -30,7 +30,7 @@ inputs:
 
 runs:
   using: docker
-  image: 'docker://iamenr0s/github-action-molecule:latest'
+  image: 'docker://iamenr0s/github-action-molecule:latest@sha256:8bebeb952ebef9a99c041ddfa36d774f520aedd32946f3f583a19f08621bd069'
   env:
     ANSIBLE_ROLES_PATH: "../"
     ANSIBLE_ASYNC_DIR: "/tmp/.ansible_async"

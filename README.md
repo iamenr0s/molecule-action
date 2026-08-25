@@ -39,7 +39,7 @@ The Docker Hub namespace where the image is in. Default `"iamenr0s"`.
 
 ### `image`
 
-The image you want to run on. Default `"almalinux9"`.
+The image you want to run on. Default `"rockylinux9"`.
 
 ### `tag`
 
